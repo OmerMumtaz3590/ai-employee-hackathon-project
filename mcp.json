@@ -1,0 +1,22 @@
+{
+  "mcpServers": {
+    "email": {
+      "command": "node",
+      "args": ["mcp_servers/email/index.js"],
+      "env": {
+        "GMAIL_USER": "",
+        "GMAIL_APP_PASSWORD": ""
+      }
+    },
+    "odoo": {
+      "command": "python",
+      "args": ["mcp_servers/odoo_accounting/odoo_mcp.py"],
+      "env": {
+        "ODOO_URL": "http://localhost:8069",
+        "DB_NAME": "",
+        "USER": "",
+        "PASSWORD": ""
+      }
+    }
+  }
+}

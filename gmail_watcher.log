@@ -1,0 +1,5 @@
+2026-02-14 10:41:40,255 - INFO - ==================================================
+2026-02-14 10:41:40,256 - INFO - Gmail Watcher Starting
+2026-02-14 10:41:40,257 - INFO - ==================================================
+2026-02-14 10:41:40,258 - ERROR - Missing credentials.json. Please download from Google Cloud Console.
+2026-02-14 10:41:40,259 - ERROR - Failed to initialize Gmail service: credentials.json not found
