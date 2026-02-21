@@ -17,6 +17,33 @@
         "USER": "",
         "PASSWORD": ""
       }
+    },
+    "twitter": {
+      "command": "node",
+      "args": ["mcp_servers/twitter/index.js"],
+      "env": {
+        "TWITTER_API_KEY": "",
+        "TWITTER_API_SECRET": "",
+        "TWITTER_ACCESS_TOKEN": "",
+        "TWITTER_ACCESS_TOKEN_SECRET": "",
+        "TWITTER_BEARER_TOKEN": ""
+      }
+    },
+    "instagram": {
+      "command": "node",
+      "args": ["mcp_servers/instagram/index.js"],
+      "env": {
+        "INSTAGRAM_ACCESS_TOKEN": "",
+        "INSTAGRAM_BUSINESS_ACCOUNT_ID": ""
+      }
+    },
+    "facebook": {
+      "command": "node",
+      "args": ["mcp_servers/facebook/index.js"],
+      "env": {
+        "FACEBOOK_PAGE_ACCESS_TOKEN": "",
+        "FACEBOOK_PAGE_ID": ""
+      }
     }
   }
 }
